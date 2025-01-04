@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: "BEGUEDOU Essokila Victoire",
     role: "CTO",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fit=crop&w=800&q=80"
+    image: "victoir.jpg"
   }
 ];
 
