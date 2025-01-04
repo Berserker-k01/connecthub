@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "MOGLO Kossi Daniel",
     role: "CEO",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&q=80"
+    image: "daniel.jpg"
   },
   {
     name: "BEGUEDOU Essokila Victoire",
