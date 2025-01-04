@@ -2,6 +2,13 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
+  const scrollToServices = () => {
+    const element = document.getElementById('services');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="accueil" className="pt-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white min-h-screen flex items-center">
       <div className="container mx-auto px-6 py-24">
@@ -10,7 +17,10 @@ export function Hero() {
             <h1 className="text-5xl font-bold mb-6">ConnectHub</h1>
             <p className="text-2xl font-light mb-4">Première startup togolaise d'innovation technologique</p>
             <p className="text-xl mb-8">"Propulser les entreprises africaines dans l'ère numérique grâce à des solutions technologiques sur mesure."</p>
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all flex items-center gap-2">
+            <button 
+              onClick={scrollToServices}
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all flex items-center gap-2"
+            >
               Découvrez nos solutions
               <ArrowRight className="w-5 h-5" />
             </button>
