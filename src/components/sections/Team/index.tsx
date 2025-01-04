@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: "BEGUEDOU Essokila Victoire",
     role: "CTO",
-    image: "victoir.jpg"
+    image: "victoire.jpg"
   }
 ];
 
